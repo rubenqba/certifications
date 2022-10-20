@@ -1,12 +1,14 @@
-# Proyecto de Certificación
+# Bookstore
 
-Se desea construir un pequeño e-commerce que permita a los usuarios comprar libros de tecnología. Los principales objetivos de la aplicación son:
+Nivel de dificultad: medio
+
+Construir un pequeño e-commerce que permita a los usuarios comprar libros de tecnología. Los principales objetivos de la aplicación son:
 
 1. Garantizar el acceso seguro de los usuarios y sus datos
 2. Permitir realizar búsquedas de libros
 3. Permitir hacer compras de los productos seleccionados
 
-En la construcción de la aplicación se medirán aspectos como el diseño gráfico, la organizacion o estructura del codigo, asi como la capacidad de que la aplicacion se adapte a diferentes tamaños de pantalla y orientacion. El desarrolloo completo tiene que estar basado en ReactJS.
+En la construcción de la aplicación se medirán aspectos como el diseño gráfico, la organizacion o estructura del codigo, asi como la capacidad de que la aplicacion se adapte a diferentes tamaños de pantalla y orientacion. El desarrollo completo tiene que estar basado en ReactJS. Aunque no es objetivo principal, se valora tambien el uso de buenas practicas de desarrollo.
 
 ## Rutas definidas
 
