@@ -59,7 +59,7 @@ En esta vista se mostrarán todos los productos que el usuario ha seleccionado p
 
 La vista tiene que incluir un accion que inicie el pago de los productos (véase [Modulo de checkout](#módulo-de-checkout)).
 
-La integración de este modulo se realizará a partir de las operaciones exportadas por un servicio que se desarrolló especialmente para este ejercicio y que se encuentra disponible en la siguiente dirección [](https://bookstore-api.gyfted.dev/api/cart).
+La integración de este modulo se realizará a partir de las operaciones exportadas por un servicio que se desarrolló especialmente para este ejercicio y que se encuentra disponible en la siguiente dirección [https://bookstore-api.gyfted.dev/api/cart](https://bookstore-api.gyfted.dev/api/cart).
 
 El servicio cuenta con 4 operaciones:
 
@@ -130,7 +130,7 @@ Una vez que se realice el pago, se debe informar al usuario del resultado del mi
 
 ### Colecciones de prueba
 
-Los archivos [](bookstore.postman_collection.json) y [](bookstore.postman_environment.json) que se incluyen en este repositorio contienen una colección de [Postman](https://www.postman.com) permiten la verificación de las operaciones así como ejemplos de las peticiones.
+Los archivos [bookstore.postman_collection.json](bookstore.postman_collection.json) y [bookstore.postman_environment.json](bookstore.postman_environment.json) que se incluyen en este repositorio contienen una colección de [Postman](https://www.postman.com) permiten la verificación de las operaciones así como ejemplos de las peticiones.
 
 Puede ejecutarlos mediante la herramienta Newman de la siguiente manera:
 
