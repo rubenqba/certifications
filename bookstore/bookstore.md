@@ -68,6 +68,23 @@ El servicio cuenta con 4 operaciones:
 - `DELETE /api/cart/book/:book_id`: elimina el producto con identificador `book_id` del carro de compras
 - `POST   /api/cart`: completa o cierra un carro de compras, esta accion se supone se ejecute al completar el checkout
 
+En el caso de agregar un producto al carrito, se espera el siguiente body como parte del request:
+
+```json
+{
+  "product": "9781491954249",
+  "title": "Designing Across Senses",
+  "subtitle": "A Multimodal Approach to Product Design",
+  "image": "https://itbook.store/img/books/9781491954249.png",
+  "price": 2.99,
+  "qty": 1
+}
+```
+
+Los atributos requeridos son: `product`, `title`, `price` y `qty`. 
+
+En el caso de la operación de completar y cerrar el carrito de compras, no es necesario enviar un body. 
+
 Todos las operaciones anteriormente descritas requieren del uso de autenticación mediante el **access token** JWT obtenido mediante la [autenticacion del usuario](#autenticación-y-autorización). Para ayuda en las especificaciones de cada una de estas operaciones puede consultar la sección de [Ayuda y Sugerencias](#ayuda-y-sugerencias)
 
 ### Módulo de libros
